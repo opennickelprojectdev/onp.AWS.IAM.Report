@@ -13,7 +13,7 @@
 ## What is this pattern?
 This pattern is a basic template, modify it as you see fit
 
-![](./diagrams/res/AWS_IAM_Report.png)
+![](./diagrams/res/AWS IAM Report.png) docs/
 
 ## What are the use cases?
 This pattern is a basic template, modify it as you see fit
