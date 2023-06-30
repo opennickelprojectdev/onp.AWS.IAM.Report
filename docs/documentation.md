@@ -6,13 +6,7 @@
 | pattern-id              | onp.base.template                             |
 | pattern-name            | base template                                 |
 | pattern-version         | 1.0.0                                         |
-| pattern-description     | When you use AWS IAM Identity Center (successor to AWS Single Sign-On) to centrally manage single sign-on (SSO) access to all of your Amazon Web Services (AWS) accounts and cloud applications, reporting and auditing those assignments through the AWS Management Console can be tedious and time consuming. This is especially true if you’re reporting on permissions for a user or group across dozens or hundreds of AWS accounts.
-
-For many, the ideal tool to view this information would be in a spreadsheet application, such as Microsoft Excel. This can help you filter, search, and visualize the data for your entire organization, managed by AWS Organizations.
-
-This pattern describes how to use AWS Tools for PowerShell to generate a report of SSO identity configurations in IAM Identity Center. The report is formatted as a CSV file, and it includes the identity name (principal), identity type (user or group), accounts the identity can access, and permission sets. After generating this report, you can open it in your preferred application to search, filter, and audit the data as needed. The following image shows sample data in a spreadsheet application.
-
-                        |
+| pattern-description     | The AWS IAM Identity Center, which is the successor to AWS Single Sign-On, provides a centralized way to manage single sign-on access for AWS accounts and cloud applications. However, manually reporting and auditing the assignments within the AWS Management Console can be a time-consuming task, especially when dealing with multiple AWS accounts and numerous permissions. To simplify this process, many users prefer exporting the information into a spreadsheet application like Microsoft Excel. By leveraging the AWS Tools for PowerShell, you can generate a comprehensive report in CSV format that includes details such as the identity name, identity type (user or group), accounts accessible by the identity, and permission sets. This report can be easily opened in your preferred application, enabling efficient searching, filtering, and auditing of the data across your entire organization managed by AWS Organizations.|                       
 | organisation-id         | nc                                            |
 | pattern-categories      | bootstrap                                     |
 
