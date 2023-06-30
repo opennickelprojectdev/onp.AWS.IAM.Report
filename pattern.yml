@@ -1,29 +1,25 @@
-metadata:
-  pattern-id: onp.base.template
-  pattern-name: base-template
-  organisation-id: onp
-  pattern-version: 1.0.0
-  pattern-description: some description here
-  pattern-categories: 
-              - bootstrap
-
+dependencies: null
 lifecycle:
   create:
     commands:
-      - bash lifecycle/create.sh
-
+    - bash lifecycle/create.sh
   delete:
     commands:
-      - bash lifecycle/delete.sh
-
+    - bash lifecycle/delete.sh
   update:
     commands:
-      - bash lifecycle/update.sh
-
+    - bash lifecycle/update.sh
   upgrade:
     commands:
-      - bash lifecycle/upgrade.sh
-
-dependencies:
-
-
+    - bash lifecycle/upgrade.sh
+metadata:
+  organisation-id: onp
+  pattern-categories:
+  - Security
+  pattern-description: 'The report is formatted as a CSV file, and it includes the
+    identity name (principal), identity type (user or group), accounts the identity
+    can access, and permission sets. After generating this report, you can open it
+    in your preferred application to search, filter, and audit the data as needed. '
+  pattern-id: onp.AWS.IAM.Report
+  pattern-name: AWS IAM Report
+  pattern-version: 1.0.0
