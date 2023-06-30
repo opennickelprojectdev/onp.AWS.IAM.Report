@@ -19,7 +19,7 @@ This pattern describes how to use AWS Tools for PowerShell to generate a report 
 ## What is this pattern?
 This pattern is a basic template, modify it as you see fit
 
-![](./diagrams/res/overview.png)
+![](./diagrams/res/AWS_IAM_Report.png)
 
 ## What are the use cases?
 This pattern is a basic template, modify it as you see fit
